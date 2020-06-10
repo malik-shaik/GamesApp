@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7e0e010f.chunk.css",
+    "main.js": "/static/js/main.e5ee102f.chunk.js",
+    "main.js.map": "/static/js/main.e5ee102f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e077b804.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e077b804.js.map",
+    "static/js/2.6fb4fcfd.chunk.js": "/static/js/2.6fb4fcfd.chunk.js",
+    "static/js/2.6fb4fcfd.chunk.js.map": "/static/js/2.6fb4fcfd.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ae6c8a1284793f6f1f261982e46d69e4.js": "/precache-manifest.ae6c8a1284793f6f1f261982e46d69e4.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.7e0e010f.chunk.css.map": "/static/css/main.7e0e010f.chunk.css.map",
+    "static/media/layout.css": "/static/media/gamesmix.1018f33b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e077b804.js",
+    "static/js/2.6fb4fcfd.chunk.js",
+    "static/css/main.7e0e010f.chunk.css",
+    "static/js/main.e5ee102f.chunk.js"
+  ]
+}

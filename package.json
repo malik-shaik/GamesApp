@@ -1,0 +1,26 @@
+{
+  "name": "gamesapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon ./src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.6-alpha.5",
+    "express-validator": "^6.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mime-types": "^2.1.27",
+    "moment": "^2.26.0",
+    "mongoose": "^5.7.5",
+    "nodemon": "^1.19.4",
+    "uuid": "^8.1.0"
+  }
+}
