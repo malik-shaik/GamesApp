@@ -1,0 +1,203 @@
+/* ********** Search section ********** */
+
+.search-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.games-platform,
+.games-search-section input {
+  outline: none;
+  background: none;
+  border: 1.5px solid #596869;
+  font-size: 0.9em;
+  padding: 0.5em;
+  color: #0f293a;
+  border-radius: 5px;
+}
+
+.games-search-section {
+  margin: 10px;
+  width: 500px;
+}
+
+.games-platform option {
+  background-color: red;
+}
+
+.search-btn {
+  color: #0f293a;
+  background-color: #9ec5ab;
+  padding: 0.45rem 1.5rem;
+  border-radius: 0.3rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* ********** Games section ********** */
+
+#allgames {
+  margin-top: 15px;
+  max-width: 600px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+/* ********** Pagination section ********** */
+
+.pagination ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.pagination-li {
+  list-style: none;
+}
+
+.pagination span {
+  color: #0f293a;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.active,
+.pagination span:hover {
+  color: #0f293a;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.active {
+  background-color: #9ec5ab;
+  /* padding: 5px 0px; */
+}
+
+#previous-icon,
+#next-icon {
+  cursor: pointer;
+}
+
+/* ********** Game Page section ********** */
+.game-page-wrapper {
+  background-color: #0f293a;
+  border-radius: 4px;
+  color: #9ec5ab;
+  font-size: 15px;
+  padding: 10px 20px;
+}
+
+.goback-link {
+  font-size: 30px;
+  height: 37px;
+}
+
+.goback-link:hover {
+  color: #fbf0a4;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.game-info {
+  width: 400px;
+}
+
+.game-cover,
+.game-content {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.game-cover {
+  margin-right: 20px;
+  margin-bottom: 10px;
+  /* width: 300px; */
+  /* height: 400px; */
+  /* border-radius: 4px; */
+  /* background-color: #0f293a; */
+}
+
+.game-cover-img {
+  height: 370px;
+  width: 270px;
+  border-radius: 4px;
+}
+
+.game-title {
+  color: #fbf0a4;
+  font-size: x-large;
+  margin-bottom: 20px;
+}
+
+#game-platform,
+#game-fees,
+#game-availabilty {
+  /* color: #e2efde; */
+  color: #fbf0a4;
+  font-size: 16px;
+  padding: 4px 20px;
+}
+
+/* .game-like-request-section {
+  height: 70px;
+} */
+
+.game-like {
+  padding: 4px;
+  width: 70px;
+  height: 27px;
+  background: none;
+  border: solid 1px #e2efde;
+  border-radius: 3px;
+  color: #e2efde;
+  font-size: 13px;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 0px;
+}
+
+.game-like:hover {
+  border: solid 1px #fbf0a4;
+  color: #fbf0a4;
+}
+
+.request-game {
+  width: 180px;
+  height: 32px;
+  background-color: #e2efde;
+  border-radius: 3px;
+  color: #0f293a;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+  margin: 10px 0px;
+
+  /* transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out; */
+  transition: all 0.3s ease-in-out;
+}
+
+.request-game:hover {
+  background-color: #fbf0a4;
+}
+
+/* ********** Mobile devices section ********** */
+
+@media only screen and (max-width: 768px) {
+  .main-container {
+    padding: 10px;
+  }
+  .games-search-section {
+    margin: 10px;
+    width: 100%;
+  }
+  #search-name {
+    min-width: 180px;
+  }
+}

@@ -1,0 +1,299 @@
+.signup-container,
+.login-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: #0f293a;
+  border-radius: 5px;
+  color: #9ec5ab;
+  font-size: small;
+}
+
+.loginModal {
+  position: absolute;
+  top: 200px;
+  left: 520px;
+  /* right: 40px; */
+  bottom: 240px;
+  /* margin-top: 20px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: #0f293a;
+  border-radius: 5px;
+  color: #9ec5ab;
+  font-size: small;
+  outline: none;
+  box-shadow: 1px 1px 5px 1px #303030;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(226, 239, 222, 0.9);
+}
+
+.login-container {
+  height: 300px;
+}
+
+.info-container {
+  height: 25px;
+}
+
+.form-container {
+  /* border-radius: 5px; */
+  padding: 30px;
+  width: 100%;
+  /* background-color: red; */
+}
+
+.input-group {
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group:last-child {
+  margin-bottom: 0;
+}
+
+.input-group label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  /* font-size: 1.2em; */
+}
+
+.input-group input {
+  outline: none;
+  background: none;
+  border: 1px solid #9ec5ab;
+  /* font-size: 1em; */
+  font-size: 0.9em;
+  padding: 0.5em;
+  color: #fbf0a4;
+  border-radius: 2px;
+  width: 250px;
+}
+
+.input-group input:focus {
+  border-color: #fbf0a4;
+}
+
+.err-msg {
+  color: #db2b66;
+}
+
+.signup-btn,
+.login-btn {
+  color: #0f293a;
+  background-color: #9ec5ab;
+  padding: 0.45rem 1.5rem;
+  border-radius: 0.3rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-login :hover,
+.btn-signup :hover {
+  background-color: #fbf0a4;
+  color: #0f293a;
+  font-weight: 900;
+}
+
+.message-link:hover,
+.login-link a:hover,
+ul li a:hover {
+  color: #fbf0a4;
+  border: none;
+}
+
+.login-link {
+  margin-top: 10px;
+}
+
+.login-link a {
+  color: #e2efde;
+  text-decoration: none;
+}
+
+.error-info {
+  color: #fbf0a4;
+  background-color: #596869;
+  border-radius: 3px;
+  align-content: center;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.error-info-animation {
+  animation: err-div-fadeout 0.5s ease-out 2s forwards;
+}
+
+/* .profile-container {
+  padding: 1.5em;
+  background-color: #596869;
+  height: 67vh;
+  width: 90%;
+  border-radius: 7px;
+  color: #fbf0a4;
+  text-align: center;
+} */
+
+.profile-container {
+  color: #0f293a;
+}
+
+.tab-active {
+  transform: scale(1.1);
+  transition: transform 0.1s;
+  border-bottom: 3px solid #0f293a;
+}
+
+.profile-menu {
+  border-bottom: 2px solid #ecf0f1;
+  cursor: pointer;
+}
+
+.name {
+  color: #0f293a;
+}
+
+#profile-title {
+  margin-bottom: 1em;
+}
+hr {
+  border: none;
+  /* margin: auto; */
+  /* height: 1px; */
+  background: #9ec5ab;
+  width: 80%;
+  /* margin-bottom: 0.5em; */
+}
+
+.profile-text {
+  color: #596869;
+}
+
+/* .tabs-section {
+  height: 3em;
+}
+.tab {
+  margin-top: 1.2em;
+  font-size: 1em;
+  width: 49.5%;
+  background: inherit;
+  color: #9ec5ab;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  height: 3em;
+} */
+
+/* .tab-active {
+  color: #fbf0a4;
+  background: #0f293a;
+  border-radius: 5px 5px 0 0;
+}
+
+.tab-content {
+  margin: auto;
+  height: 50vh;
+  width: 99%;
+  color: #9ec5ab;
+  background: #0f293a;
+}
+
+.messages-container {
+  height: 200px;
+  display: flex;
+  overflow: auto;
+} */
+
+/* .message-link {
+  cursor: pointer;
+}
+.message-section {
+  width: 50%;
+  background-color: #e2efde;
+  color: #0f293a;
+  height: 40vh;
+} */
+
+.favorite-game:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: transform 0.1s;
+}
+
+.edit-icon {
+  cursor: pointer;
+}
+
+.favorite-game {
+  border-radius: 11px;
+  height: 120px;
+}
+
+.email-update {
+  margin-left: 30%;
+}
+
+.reply-btn,
+.send-msg-btn,
+.update-btn {
+  background: #9ec5ab;
+  color: #0f293a;
+}
+
+.reply-btn {
+  width: 150px;
+  height: 35px;
+  outline: none;
+}
+
+.reply-btn:hover,
+.update-btn:hover {
+  background: #fbf0a4;
+  outline: none;
+}
+
+.overflow-section {
+  overflow: auto;
+  height: 35vh;
+  width: 900px;
+}
+
+.reply-section,
+.msg-section {
+  height: 30vh;
+}
+
+.sender-name {
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.msg-date {
+  font-size: 0.8rem;
+}
+
+.text-area {
+  width: 500px;
+}
+
+@keyframes err-div-fadeout {
+  to {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,338 @@
+/* ****** Navigation bar section ********* */
+header {
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  align-items: center;
+  background-color: #0f293a;
+}
+
+.logo {
+  flex: 1;
+  letter-spacing: 0.07em;
+  font-size: 20px;
+  font-family: "Audiowide", cursive;
+  margin-left: 10%;
+  color: #fbf0a4;
+  text-decoration: none;
+}
+
+.logo:hover {
+  color: #fbf0a4;
+}
+
+.nav-wrapper {
+  flex: 1;
+}
+
+.nav-items {
+  display: flex;
+  margin-right: 10%;
+  /* right: 20px; */
+  justify-content: space-around;
+  list-style: none;
+}
+
+.nav-links {
+  color: #9ec5ab;
+  text-decoration: none;
+  font-size: 14.5px;
+  letter-spacing: 0.05em;
+}
+
+.burger-icon {
+  display: none;
+}
+
+.nav-wrapper ul li a:hover {
+  color: #fbf0a4;
+  border: none;
+}
+
+/* ******** Main content section ********* */
+
+main {
+  height: 100%;
+  background-color: #e2efde;
+}
+
+.main-tag {
+  height: 80vh;
+}
+
+/* ******** Banner section ********* */
+
+.presentation {
+  /* height: 295px; */
+  height: 45vh;
+  background-image: url("../../../img/gamesmix.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  background-color: #e2efde;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  /* flex-grow: 1; */
+  /* min-height: 80vh; */
+  height: 80vh;
+}
+
+.intro-message {
+  background: rgba(15, 41, 58, 0.6);
+  border-radius: 15px;
+  width: 60%;
+  height: auto;
+  color: #fbf0a4;
+}
+
+.gamers-quote {
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+}
+
+.message {
+  margin: 10px;
+  letter-spacing: 0.04em;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.message,
+.joinus-link,
+.games,
+.footer,
+.recently-added-title h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#joinus-link {
+  border: #fbf0a4 solid 1px;
+  width: 130px;
+  padding: 5px;
+  border-radius: 8px;
+  margin: auto;
+  margin-bottom: 15px;
+  text-decoration: none;
+  color: #fbf0a4;
+}
+
+.explore-btn {
+  color: #0f293a;
+  background: #9ec5ab;
+}
+
+.explore-btn:hover {
+  background: #fbf0a4;
+}
+
+.intro-message a:hover {
+  background-color: #fbf0a4;
+  border: none;
+  color: #0f293a;
+}
+
+/* ******** Recent added games section ********* */
+
+.content-section {
+  background-color: #e2efde;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recently-added {
+  width: 600px;
+  padding: 5px;
+  padding-inline-end: initial;
+  color: #fbf0a4;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #596869;
+  height: auto;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.recently-added-title {
+  margin: 5px;
+  align-items: center;
+}
+
+.games {
+  overflow: auto;
+  margin: 0 2px;
+}
+
+.game {
+  padding: 7px;
+  width: 135px;
+  height: 195px;
+  background-color: #0f293a;
+  border-radius: 3px;
+  font-size: x-small;
+  margin-bottom: 7px;
+  margin-right: 7px;
+  text-decoration: none;
+  /* transition: all 0.1s ease-in; */
+}
+
+.game-details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 12px;
+  font-weight: bolder;
+  margin-top: 2px;
+  color: #e2efde;
+}
+
+.game-icon {
+  width: 23px;
+}
+
+.cover-img {
+  border-radius: 3px;
+  /* width: 120px; */
+  width: 100%;
+  height: 140px;
+}
+
+.game-fee {
+  color: #fbf0a4;
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.game:hover {
+  cursor: pointer;
+  border: solid 2px #fbf0a4;
+  /* width: 140px; */
+  /* height: 200px; */
+}
+
+/* ************* Footer section ************* */
+
+.footer {
+  align-items: center;
+  color: #9ec5ab;
+  background-color: #0f293a;
+  height: 10vh;
+  font-size: small;
+}
+
+.footer-info {
+  flex: 1;
+  margin-left: 10%;
+}
+
+.footer-contact {
+  float: right;
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  margin-right: 10%;
+}
+
+/* ************* Media Queries for mobile devices ************* */
+
+@media only screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .logo {
+    font-size: 18px;
+  }
+
+  .burger-icon {
+    display: block;
+    float: right;
+    margin-right: 15%;
+  }
+
+  .line1,
+  .line2,
+  .line3 {
+    width: 28px;
+    height: 2.2px;
+    margin: 5px;
+    background-color: #9ec5ab;
+    transition: all 0.5s ease;
+  }
+
+  .nav-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    position: fixed;
+    margin-right: 0%;
+    right: 0px;
+    top: 9vh;
+    height: 81vh;
+    background-color: rgb(15, 41, 58, 0.9);
+    /* z-index: 1; */
+    transform: translateX(100%);
+    transition: transform 0.4s ease-in;
+  }
+
+  .nav-links {
+    color: #fbf0a4;
+  }
+
+  .nav-items li {
+    opacity: 0;
+  }
+
+  /* .nav-items, */
+  .gamers-quote {
+    display: none;
+  }
+
+  .recently-added {
+    width: 90%;
+  }
+
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+}
+
+.main-nav-active {
+  transform: translateX(0%);
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
