@@ -18,7 +18,7 @@
     "express-validator": "^6.2.0",
     "jsonwebtoken": "^8.5.1",
     "mime-types": "^2.1.27",
-    "moment": "^2.26.0",
+    "moment": "^2.29.2",
     "mongoose": "^5.7.5",
     "nodemon": "^1.19.4",
     "uuid": "^8.1.0"
